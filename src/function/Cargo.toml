@@ -12,7 +12,7 @@ snmalloc = [ "snmalloc-rs" ]
 
 [dependencies]
 arrow = { git = "https://github.com/DSLAM-UMD/arrow-rs", branch = "squirtle", features = [ "simd" ] }
-aws_lambda_events = "0.4"
+aws_lambda_events = "0.5"
 datafusion = { git = "https://github.com/DSLAM-UMD/arrow-datafusion", branch = "squirtle" }
 futures = "0.3.12"
 lambda_runtime = { git = "https://github.com/awslabs/aws-lambda-rust-runtime/", branch = "master" }
